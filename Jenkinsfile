@@ -1,11 +1,11 @@
 pipeline {
-    agent any
 
-    stages {
-        stage('Hello') {
-            steps {
-                echo 'From man branch'
-            }
-        }
+    agent any
+    stages {]
+      steps {
+         echo "from main branch"
+
+      }
+    
     }
 }

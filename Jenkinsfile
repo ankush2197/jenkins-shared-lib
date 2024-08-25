@@ -4,8 +4,6 @@ pipeline {
     stages {]
       steps {
          echo "from main branch"
-
-      }
-    
+      }  
     }
 }

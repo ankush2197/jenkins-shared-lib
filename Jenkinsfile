@@ -6,16 +6,19 @@ pipeline {
             steps {
                 echo 'hello build '
             }
+        }
 
             stage('test') {
             steps {
                 echo 'hello test'
+            }
             }
 
             stage('deploy') {
             steps {
                 echo 'hello deploy'
             }
+            }
         }
     }
-}
+
